@@ -1,0 +1,223 @@
+ /* GENERAL */
+ 
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ ul {
+     list-style: none;
+ }
+ 
+ a {
+     text-decoration: none;
+ }
+ /* INDEX */
+ 
+ body {
+     background-image: linear-gradient(45deg, #efefef 25%, rgba(239, 239, 239, 0) 25%, rgba(239, 239, 239, 0) 75%, #efefef 75%, #efefef), linear-gradient(45deg, #efefef 25%, rgba(239, 239, 239, 0) 25%, rgba(239, 239, 239, 0) 75%, #efefef 75%, #efefef);
+ }
+ 
+ .center {
+     min-height: 100vh;
+     width: 800px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin: auto auto;
+ }
+ 
+ .center i {
+     font-size: 10rem;
+     padding-bottom: 1.5rem;
+     text-align: center;
+     color: rgba(216, 144, 11, 0.918);
+     transition: all 3s;
+ }
+ 
+ .center i:hover {
+     transform: translateY(-15px);
+ }
+ 
+ .center form {
+     height: 280px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     border: #ddd solid 5px;
+     border-radius: 30px;
+     padding: 2em;
+     text-align: center;
+ }
+ 
+ .center form h1 {
+     font-family: 'Roboto', sans-serif;
+     color: orange;
+     text-shadow: 2px 2px 2px white;
+     margin-bottom: 1rem;
+     /* text-decoration: underline overline; */
+ }
+ 
+ .label {
+     font-size: 1.5rem;
+     font-family: 'Roboto', sans-serif;
+     font-weight: bold;
+     color: orange;
+ }
+ 
+ input {
+     margin-bottom: 1rem;
+     background-color: #eee;
+     border: white solid 1px;
+     border-bottom: black solid 1px;
+     border-radius: 5px;
+     outline: 0;
+ }
+ 
+ .btn {
+     font-size: 1.2rem;
+     width: 7rem;
+     border-radius: 10px;
+     outline: 0;
+     border: orange solid 1px;
+     background-color: orange;
+     color: white;
+     cursor: pointer;
+     transition: all 1s;
+ }
+ 
+ .btn:hover {
+     color: orange;
+     background-color: white;
+     border: #ddd solid 1px;
+ }
+ /* ACCUEIL-HEADER */
+ 
+ header {
+     height: 80px;
+     max-width: 100%;
+     /* background-color: #ddd; */
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+     border-bottom: black solid 3px;
+ }
+ 
+ header ul {
+     display: flex;
+     justify-content: space-around;
+ }
+ 
+ header ul li {
+     font-size: 2rem;
+ }
+ 
+ header ul li a {
+     color: orange;
+ }
+ 
+ .red:hover {
+     color: red;
+ }
+ 
+ header ul li a i {
+     font-size: 3rem;
+     transition: all 2s;
+ }
+ 
+ header ul li a i:hover {
+     transform: scale(1.5);
+ }
+ /* ACCUEIL-CONTENU */
+ 
+ .container {
+     max-width: 80%;
+     margin: 5rem auto;
+ }
+ 
+ .container h2 {
+     text-align: center;
+     font-size: 3rem;
+     text-shadow: orange 1px 0 7px;
+     text-decoration: underline overline;
+ }
+ 
+ .column {
+     display: flex;
+     justify-content: space-around;
+     height: 100%;
+     max-width: 100%;
+ }
+ 
+ .column article {
+     display: flex;
+     height: 535px;
+     width: 440px;
+     background-color: #efefef;
+     border: white solid 2px;
+     margin-top: 2.5rem;
+ }
+ 
+ h3 {
+     text-align: center;
+     text-shadow: rgba(201, 6, 6, 0.596) 1px 1px 7px;
+     color: orange;
+     margin-top: 0.5rem;
+     font-size: 1.5rem;
+ }
+ 
+ article div p {
+     text-align: center;
+     padding: 0 0.2rem 0.4rem 0;
+     font-weight: bold;
+     font-size: 1.1rem;
+ }
+ 
+ article div img {
+     margin: 0 0rem 0 10rem;
+ }
+ 
+ .article {
+     height: 100%;
+     width: 100%;
+ }
+ 
+ .article h3 {
+     margin-bottom: 1rem;
+ }
+ 
+ .article p {
+     font-size: 1.5rem;
+     margin-bottom: 0.5rem;
+ }
+ /*HORRAIRE*/
+ 
+ .tableau {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: center;
+     align-content: center;
+     /* max-width: 95%; */
+ }
+ 
+ table {
+     margin: 6rem 3rem 0 2rem;
+     height: 60px;
+     width: 500px;
+     flex-direction: column;
+     text-align: center;
+ }
+ 
+ th {
+     border: solid gray 3px;
+     border-radius: 5px;
+     font-size: 1.3rem;
+     color: orange;
+ }
+ 
+ td {
+     border: solid gray 3px;
+     border-radius: 5px;
+     font-size: 1.2rem;
+ }
